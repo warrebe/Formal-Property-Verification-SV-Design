@@ -1,0 +1,27 @@
+2.
+
+3.
+p_startonce:
+	-Passed
+p_evdone: 
+	-Passed
+p_sanity: 
+	-Passed
+p_divides:
+	-Inconclusive/Analysis Incomplete
+	-Required extra properties to show an inconclusive result. It's almost impossible to verify as due to the runtime to verify 2^32 inputs on divides. It hits a timeout after 30s 
+	 so the report will show an inconclusive unless you have the computational power.
+
+
+Results:
+# ---------------------------------------
+# Property Summary                  Count
+# ---------------------------------------
+# Assumed                               3
+# Proven                                2
+# Inconclusive                          1
+#   Analysis Incomplete                 1
+# Fired                                 0
+# ---------------------------------------
+# Total                                 6
+# ---------------------------------------
